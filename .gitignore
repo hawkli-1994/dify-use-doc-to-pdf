@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.env
+.venv/
+venv/
+.pytest_cache/
+
+# Playwright artifacts
+playwright-report/
+playwright/.cache/
+
+# Generated docs
+temp_pdfs/
+temp_test_render/
+dify_docs*.pdf
+
+# Editor junk
+*.swp
+*.swo
+*.tmp
+~*
